@@ -1,0 +1,70 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    tools:context="com.example.cr554.singlescreenapplication.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/company_name"
+        android:textSize="58sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:scaleType="centerCrop"
+        android:background="@color/yellow"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/roodle"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/description"
+        android:id="@+id/imageView" />
+
+    <!-- Embedded a Linear layout in my linear layout so i can have a horizontal list of things. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/address"
+            android:textAlignment="center"
+            android:background="@color/red"
+            android:textColor="@color/black"
+            android:gravity="center"
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/hours_of_op"
+            android:textAlignment="center"
+            android:background="@color/yellow"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/contact_info"
+            android:textAlignment="center"
+            android:background="@color/red"
+            android:textColor="@color/black"
+            android:gravity="center"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

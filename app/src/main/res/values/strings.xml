@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SingleScreenApplication</string>
+    <string name="description">Roodle has Ramen!</string>
+    <string name="company_name">Roodle!</string>
+    <string name="address">1263 S.Broad Street, Wallingford, CT 06492</string>
+    <string name="contact_info">(203)–269–9899\n\nwww.roodle-ct.com</string>
+    <string name="hours_of_op">9am-9pm: Sunday through Thursday\n\n9am-5pm: Friday and Saturday</string>
+</resources>
